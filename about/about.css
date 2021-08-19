@@ -1,1 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
+body{
+    background-color: rgb(241, 235, 235); 
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+input{
+    display: block;
+    margin: 20px 0;
+    background-color: rgb(241, 235, 235); 
+    width: 80%;
+    padding: 20px;
+    border: none;
+}
+
+textarea{
+    display: block;
+    width: 80%;
+    background: rgb(241, 235, 235); 
+    padding: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 20px;
+    border: none;
+}
+
+button{
+    padding: 5px 20px;
+    color:  rgb(223, 57, 73);
+    font-size: 24px;
+    background-color: transparent;
+    border: none;
+}
+
+a button:hover{
+    cursor: pointer;
+    color: rgb(0, 217, 255);
+}
+
+a:active button{
+    border-bottom: 2px solid rgb(223, 57, 73);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+nav p{
+    font-size: 40px;
+    background-color: white;
+    padding-top: 6px;
+    border-radius: 7px;
+
+}
+nav ul{
+    display: flex;
+    padding: 0;
+    margin-top: 15px;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul .exp{
+    margin-right: 30px;
+}
+
+main{
+    width: 80%;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+main h1{
+    margin-bottom: 20px;
+}
+.content{
+    display: flex;
+}
+
+article{
+    width: 50%;
+    line-height: 1.6em;
+}
+
+.form-wrapper{
+    width: 50%;
+    background-color: white;
+    padding: 5px;
+    line-height: 1.6em;
+}
+
+.submit-btn{
+    background-color: rgb(223, 57, 73);
+    color: white;
+    border-radius: 5px;
+}
