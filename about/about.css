@@ -79,18 +79,20 @@ main{
 
 main h1{
     margin-bottom: 20px;
+    font-size: 26px;
 }
 .content{
     display: flex;
+    justify-content: space-between;
 }
 
 article{
-    width: 50%;
+    width: 47%;
     line-height: 1.6em;
 }
 
 .form-wrapper{
-    width: 50%;
+    width: 47%;
     background-color: white;
     padding: 5px;
     line-height: 1.6em;
@@ -100,4 +102,28 @@ article{
     background-color: rgb(223, 57, 73);
     color: white;
     border-radius: 5px;
+}
+
+.my-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-info p{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.my-info img{
+    width: 30%;
+    height: auto;
+    border-radius: 26%;
+}
+.my-info .social-links{
+    display: flex;
+    justify-content: space-between;
+}
+.my-info .social-links i{
+    font-size: 40px;
+    color:  rgb(223, 57, 73);
+
 }
